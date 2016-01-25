@@ -1,5 +1,5 @@
 # UpgradeTheLoop (alpha)
-An (awesome) School Loop extension that makes School Loop what is should have been. (Alpha)
+An (awesome) School Loop extension that makes School Loop what it should have been. (Alpha)
 
 ##INSTALLATION:
 This extention is still in Alpha, but if you would like to try it out, download the ZIP, enable Chrome developement tools, and drag the 'extension' folder onto the Chrome://Extentions page. (You could alternativly just 'load unpacked extention')
