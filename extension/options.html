@@ -1,29 +1,100 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Upgrade The Loop Options</title>
+  <title>Upgrade The Loop - Options</title>
   <style>
-    body: { padding: 10px; }
+    body {
+      padding: 15px;
+    }
+        span.question {
+          cursor: pointer;
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background-color: #89A4CC;
+          line-height: 16px;
+          color: White;
+          font-size: 11px;
+          border-radius: 8px;
+          text-align: center;
+          position: relative;
+        }
+        span.question:hover { background-color: #3D6199; }
+        div.tooltip {
+          background-color: #3D6199;
+          color: White;
+          position: absolute;
+          left: 25px;
+          top: -25px;
+          z-index: 1000000;
+          width: 250px;
+          border-radius: 5px;
+        }
+        div.tooltip:before {
+          border-color: transparent #3D6199 transparent transparent;
+          border-right: 6px solid #3D6199;
+          border-style: solid;
+          border-width: 6px 6px 6px 0px;
+          content: "";
+          display: block;
+          height: 0;
+          width: 0;
+          line-height: 0;
+          position: absolute;
+          top: 40%;
+          left: -6px;
+        }
+        div.tooltip p {
+          margin: 5px;
+          color: White;
+        }
   </style>
 </head>
 
 <body>
-  Favorite color:
-  <select id="color">
-   <option value="red">red</option>
-   <option value="green">green</option>
-   <option value="blue">blue</option>
-   <option value="yellow">yellow</option>
-  </select>
+    <div>
+<!--        <span class="question" id="q1" style="margin-left: -20px; margin-right: 5px;">?</span>-->
+        <label for="sl_subdomain"><strong>School Loop Subdomain:</strong></label>
+        <span style="font-size: 80%;">https://</span>
+        <input type="text" id="sl_subdomain" style="width:80px;">
+        <span style="font-size: 80%;">.schoolloop.com</span><br>
+    </div>
+<!--    <div class="tip" data-tip="Your school's subdomain. Examples: 'montavista' or 'lynbrook'">?</div>-->
+    
+<!--
+    <span class="question" id="q2" style="margin-left: -20px;margin-right: 5px;">?</span><label for="sl_username">School Loop Username</label>
+    <input type="text" id="sl_username"><br>
+    
+    <span class="question" id="q2" style="margin-left: -20px; margin-right: 5px;">?</span><label for="sl_password">School Loop Password</label>
+    <input type="password" id="sl_password"><br>
+-->
+    
+  <label for="theme_select"><strong>Select a Theme:</strong></label>
+    <select id="theme_select"></select>
 
-  <label>
-    <input type="checkbox" id="like">
-    I like colors.
-  </label>
-
-  <div id="status"></div>
-  <button id="save">Save</button>
-
-  <script src="options.js"></script>
+  <div id="theme_colors" style="padding: 10px; margin: 10px; border: 1px solid #555555">
+    <label for="color_primary">Primary Color</label>
+      <input type="text" id="color_primary"><br>
+    <label for="color_accent">Accent Color</label>
+      <input type="text" id="color_accent"><br>
+    <label for="color_background">Background Color</label>
+      <input type="text" id="color_background"><br>
+    <label for="color_background_content">Content Background Color</label>
+      <input type="text" id="color_background_content"><br>
+    <label for="color_text">Text Color</label>
+      <input type="text" id="color_text"><br>
+    <label for="color_text_secondary">Secondary Text Color</label>
+      <input type="text" id="color_text_secondary"><br>
+    <button id="save">Save</button>
+    <div id="status"></div>
+  </div>
+    
+    <div class="listItem"><label style="margin-right: 5%;" for="enableNotif"><strong>Enable Notifications:</strong></label>
+    <input type="checkbox" id="enableNotif"></div>
+    
+    <div class="listItem"><button id="resetButton">Reset Grade Data</button></div>
+    
+  <!--<script src="assets/js/underscore-min.js"></script>-->
+  <script src="assets/js/jquery-2.1.0.min.js"></script>
+    <script src="assets/js/options.js"></script>
 </body>
-</html>
