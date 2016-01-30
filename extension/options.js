@@ -4,9 +4,9 @@ var themes = { //default theme set, although custom can change
     name: "No Theme",
     key: "none"
   },
-  mvhs: {
-    name: "MVHS",
-    key: "mvhs",
+  material: {
+    name: "Material Design",
+    key: "mtrl",
     colors: {
       background: "#424242",
       primary: "#7E57C2",

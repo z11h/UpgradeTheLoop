@@ -1,13 +1,14 @@
 @charset "UTF-8";
 body{
-    font-family: 'Roboto', sans-serif !important;
-    background: url('http://www.lirent.net/wp-content/uploads/2014/10/Google-Now-Wallpaper-1.png') !important;
+    font-family: 'Raleway' !important;
+    /*background: url('http://www.lirent.net/wp-content/uploads/2014/10/Google-Now-Wallpaper-1.png') !important;*/
+    background: url(https://lh3.googleusercontent.com/qUwlwa_lFXABSnQHM__YCR-PEkR7Enj-dbnSsiI7W58CgoE3phVMjyHZrBeh5OtIbRTx=w1920-h1080-rw-no) !important;
     background-position: center center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
 }
-#container_footer, .footer .button_footer{
+#container_footer, .footer .button_footer, #container_footer_login{
     background: rgba(0, 0, 0, 0) !important;
     color: white !important;
     text-decoration: none !important;
@@ -15,15 +16,50 @@ body{
 .student_row{
     padding: 1.5% !important;
 }
-.float_l percent{
-    -webkit-animation-duration: 0.3s;
-    -webkit-animation-delay: 1s;
+.float_l.percent{
     font-weight: bold !important;
 } 
-.container_header_links {
-    background: #3F51B5 !important;
+#container_content{
+    -webkit-animation-duration: 0.7s;
+    /*-webkit-animation-delay: 0.7s;*/
 }
+.float_l.grade{
 
-.nav_employee .trigger, .header_tabs ul .current a, .header_tabs, #container_header_top a, #container_page, #page_title{
+}
+#container_header_links {
+    background: #3949AB !important;
+    height: 25% !important;
+    padding: 0.5% !important;
+}
+.fixedHeader{
+    height: 10% !important;
+}
+.fixedHeader_background{
+	background: rgba(0, 0, 0, 0) !important;
+}
+.nav_employee .trigger, .header_tabs ul .current a, .header_tabs, #container_header_top a, #container_page{
     border: none !important;
+}
+.module_col{
+    background: rgba(0, 0, 0, 0) !important;
+}
+.module{
+	box-shadow: 0px 3px rgba( 0, 0, 0, 0.1)  !important;
+	-moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+}
+#page_title{
+
+}
+.content{
+
+}
+#container_page{
+	
+}
+#page_title_login{
+	color: white !important;
+}
+.fixedHeader div{
+    background: rgba(0, 0, 0, 0) !important;
 }
