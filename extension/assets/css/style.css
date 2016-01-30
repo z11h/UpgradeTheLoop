@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    font-family: 'Raleway' !important;
+    font-family: "Raleway", sans-serif !important;
     /*background: url('http://www.lirent.net/wp-content/uploads/2014/10/Google-Now-Wallpaper-1.png') !important;*/
     background: url(https://lh3.googleusercontent.com/qUwlwa_lFXABSnQHM__YCR-PEkR7Enj-dbnSsiI7W58CgoE3phVMjyHZrBeh5OtIbRTx=w1920-h1080-rw-no) !important;
     background-position: center center !important;
