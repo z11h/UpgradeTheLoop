@@ -19,23 +19,20 @@
   },
   "content_scripts":[
     {
-      "matches":["https://*.schoolloop.com/*"],
+      "matches":["*://*.schoolloop.com/*"],
       "js": ["assets/js/jquery-2.2.0.min.js", "assets/js/script.js", "assets/js/wow.min.js", "assets/js/themes.js"],
       "all_frames": true,
       "run_at":"document_end"
     },
     {
-      "matches": ["https://*.schoolloop.com/*"],
+      "matches": ["*://*.schoolloop.com/*"],
         "css": ["assets/css/animate.min.css", "assets/css/style.css"]
     }
   ],
 "permissions": [
     "storage",
     "notifications", 
-    "https://*.schoolloop.com/*"
-    //"https://*.schoolloop.com/progress_report/*", 
-    //"https://*.schoolloop.com/portal/student_home/*", 
-    //"https://*.schoolloop.com/news/*",
-    //"https://*.schoolloop.com/calendar/*"
+    "*://*.schoolloop.com/*",
+    "*://*/*"
     ]
   }
