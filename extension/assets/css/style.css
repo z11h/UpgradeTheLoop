@@ -1,29 +1,28 @@
 @charset "UTF-8";
-body{
-    font-family: 'Roboto', sans-serif !important;
-    background: url('http://www.lirent.net/wp-content/uploads/2014/10/Google-Now-Wallpaper-1.png') !important;
-    background-position: center center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
+body {
+  font-family: 'Roboto', sans-serif !important;
+  background: url('http://www.lirent.net/wp-content/uploads/2014/10/Google-Now-Wallpaper-1.png') !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
 }
-#container_footer, .footer .button_footer{
-    background: rgba(0, 0, 0, 0) !important;
-    color: white !important;
-    text-decoration: none !important;
+#container_footer, .footer .button_footer {
+  background: rgba(0, 0, 0, 0) !important;
+  color: white !important;
+  text-decoration: none !important;
 }
-.student_row{
-    padding: 1.5% !important;
+.student_row {
+  padding: 1.5% !important;
 }
-.float_l percent{
-    -webkit-animation-duration: 0.3s;
-    -webkit-animation-delay: 1s;
-    font-weight: bold !important;
-} 
+.float_l percent {
+  -webkit-animation-duration: 0.3s;
+  -webkit-animation-delay: 1s;
+  font-weight: bold !important;
+}
 .container_header_links {
-    background: #3F51B5 !important;
+  background: #3F51B5 !important;
 }
-
-.nav_employee .trigger, .header_tabs ul .current a, .header_tabs, #container_header_top a, #container_page, #page_title{
-    border: none !important;
+.nav_employee .trigger, .header_tabs ul .current a, .header_tabs, #container_header_top a, #container_page, #page_title {
+  border: none !important;
 }
