@@ -1,3 +1,1 @@
-console.log("Main script Injected");
-
-$('#container_content').addClass('animated slideInUp');
+document.getElementById('#container_content').className += 'animated slideInUp';
